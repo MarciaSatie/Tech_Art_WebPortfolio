@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Satie portfolio</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/content.css">
+    <link rel="icon" type="image/x-icon" href="/images/main/logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
+    </style>
+    <title>M.Satie Portfolio</title>
+</head>
+<body>
+    <footer class="grid_container">
+
+        <!--Header-->
+        {% include "header.njk" %}
+        
+        <!-- Main content -->
+        <div id="grid_mainContent">
+            <section>
+                <div class="align_center">
+                    <h1 class="title">{{title}}</h1>
+                </div>
+                <div class="align_center">
+                    <p class="subTitle">{{subTitle}} </p>
+                </div>
+                <div class="align_center">
+                    <img src="/images/main/logo.png" width="70px">
+                </div>
+            </section>
+            <br> <br>
+
+            {{content | safe}}
+        </div>
+        <br><br>
+
+
+        <!--Footer (Move it inside body)-->
+        {% include "footer.njk" %}
+
+        
+    </div>
+    
+</body>
+</html>

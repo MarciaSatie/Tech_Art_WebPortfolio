@@ -1,0 +1,87 @@
+        <!--Header-->
+        <div id="grid_header">
+            <header>
+                <div id="containerH">
+                    <div >
+                        <ul id="menu">
+                            {% if title == "This is me" %}
+                                <li class="active"><a href="/subpages/aboutMe">About Me</a></li>
+                            {% else %}
+                                <li><a href="/subpages/aboutMe" class="btn">About Me</a></li>
+                            {% endif %}
+
+                            {% if title == "Contact" %}
+                                <li class="active"><a href="/subpages/contact">Contact</a></li>
+                            {% else %}
+                                <li><a href="/subpages/contact" class="btn">Contact</a></li>
+                            {% endif %}
+
+                        </ul>
+                    </div>
+
+
+                    <div >
+                        <a id="home_btn" href="/" title="Home Page">
+                              <h2>M.Satie Portfolio</h2>
+                        </a>
+                    </div>
+                    <div >
+                        <a href="https://www.linkedin.com/in/marcia-satie/" title="Linkedin">
+                            <img  class ="social" src="/images/main/linkedin.png" alt="Check my Linkedin.">
+                        </a>
+                    </div>
+                </div>
+                <hr>
+            </header>
+            
+            <!--Navigation-->
+            <div id="navigation">
+                <ul id="menu">
+                
+                {% if title == "Marcia Satie" %}
+                    <li class="active"><a href="/">Home</a></li>
+                {% else %}
+                    <li><a href="/" class="btn">Home</a></li>
+                {% endif %}
+
+                {% if title == "2D Rigging" %}
+                    <li class="active"><a href="/subpages/rigging">Rigging</a></li>
+                {% else %}
+                    <li><a href="/subpages/rigging" class="btn">Rigging</a></li>
+                {% endif %}
+
+                {% if title == "Scripts" %}  
+                    <li class="active"><a href="/subpages/scripts">Scripts</a></li>
+                {% else %}
+                    <li><a href="/subpages/scripts" class="btn">Scripts</a></li>
+                {% endif %}
+
+                {% if title == "Animation" %}  
+                    <li class="active"><a href="/subpages/animation">Animation</a></li>
+                {% else %}
+                    <li><a href="/subpages/animation" class="btn">Animation</a></li>
+                {% endif %}
+
+                {% if title == "Game Animation" %}  
+                    <li class="active"><a href="/subpages/game">Games</a></li>
+                {% else %}
+                    <li><a href="/subpages/game" class="btn">Games</a></li>
+                {% endif %}
+
+                {% if title == "Illustrations" %}  
+                    <li class="active"><a href="/subpages/illustrations">Illustrations</a></li>
+                {% else %}
+                    <li><a href="/subpages/illustrations" class="btn">Illustrations</a></li>
+                {% endif %}
+
+                    
+                    
+                    
+ 
+                    
+                </ul>
+            </div>
+            <hr>
+
+        </div>
+        <!--Header-->
