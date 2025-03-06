@@ -1,0 +1,47 @@
+/*Buttons and Links */
+
+.btn{
+    padding: 15px 10px;
+    border:none;
+    cursor:pointer;
+    color: dimgrey;
+}
+.btn:hover{
+    color: black;
+
+}
+a{
+    text-decoration: none; 
+    cursor:pointer;
+}
+a:visited{
+    text-decoration: none; 
+    color: dimgrey;
+}
+
+
+hr{
+    border:0;
+    height: 3px;
+    background-color:rgb(237, 237, 237);
+    width: 100%;
+    margin: 10px auto;
+}
+
+a{
+    text-decoration: none; 
+    cursor:pointer;
+}
+a:visited{
+    text-decoration: none; 
+    color: dimgrey;
+}
+
+
+.social{
+    width: 50%;
+}
+
+.social:hover{
+    width: 60%;   
+}

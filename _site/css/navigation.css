@@ -1,0 +1,21 @@
+
+#navigation{
+    margin-top:10px;
+}
+#menu{
+
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+}
+
+ul#menu li {
+    display: inline;
+  }
+  
+
+#menu li.active a {
+
+    color: rgb(255, 0, 190);
+  }
+  
