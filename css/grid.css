@@ -1,0 +1,63 @@
+/*General*/
+body{
+  margin-top: 150px;
+  font-family: "Pontano Sans", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  color: dimgrey;
+
+}
+hr{
+  border:0;
+  height: 3px;
+  background-color:rgb(237, 237, 237);
+  width: 100%;
+  margin: 10px auto;
+}
+
+.imgSize{
+  width: 100%;
+  height: 100%;
+}
+
+/*Grid Css*/
+.grid_container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: auto 1fr auto; 
+
+}
+
+
+#grid_header { 
+  grid-row: 1/2;
+  width: 100%;
+  max-width: 800px; 
+  position: fixed; 
+  top: 0;  
+  left: 50%;
+  transform: translateX(-50%); /* have to be transform because of position:fixed. */
+  background-color: white;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+  
+  #grid_mainContent {
+    grid-row:2/3;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  #grid_footer {
+    min-height: 100px;
+    grid-row:3/4;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+
+  }
+
